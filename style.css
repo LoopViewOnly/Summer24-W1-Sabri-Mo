@@ -1,0 +1,27 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  user-select: none;
+}
+
+#images {
+  width: 100%;
+  500px overflow-x: ;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: -30px;
+}
+
+#images img {
+  width: 40%;
+  cursor: pointer;
+  clip-path: inset( 0 0 15px 0);
+}
